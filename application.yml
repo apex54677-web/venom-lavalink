@@ -11,8 +11,21 @@ lavalink:
       twitch: true
       http: true
       local: true
+    youtubeSearchEnabled: true
+    sourceAllowed:
+      - "youtube"
+      - "soundcloud"
+      - "local"
+      - "http"
 logging:
   level:
     root: INFO
     lavalink: INFO
+
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
     
